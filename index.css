@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.to-from {
+    display: flex;
+    max-width: 320px;
+    gap: 10px;
+}
+
+.main-input {
+    height: 100px;
+    text-align: left;
+    resize: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #9CA3AF;
+    
+}
+
+input {
+    text-align: center;
+    min-width: 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9CA3AF;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28A9F1;
+}
+
+
+.endorse-wrapper {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+h6 {
+    margin: 0;
+    font-size: .90rem;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    margin: 10px 0;
+}
+
+p {
+    margin: 0;
+    font-size: .85rem;
+    margin-bottom: px
+}
+
+::placeholder {
+    color: white;
+    opacity: 65%;
+}
