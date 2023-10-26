@@ -1,9 +1,15 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    /* background-color: #fff; */
     color: white;
     font-family: 'Roboto', sans-serif;
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    min-height: 100vh
+
 }
 
 .wrapper {
@@ -11,6 +17,11 @@ html, body {
     flex-direction: column;
     max-width: 320px;
     margin: auto;
+    border: 1px solid black;
+    padding: 50px 10px;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 50px;
 }
 
 .form {
@@ -33,7 +44,10 @@ html, body {
     resize: none;
     border-radius: 5px;
     border: none;
-    background-color: #9CA3AF;
+    background-color: #00b09b55;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
     
 }
 
@@ -43,14 +57,15 @@ input {
     padding: 15px;
     border-radius: 5px;
     border: none;
-    background-color: #9CA3AF;
+    background-color: #00b09b55;
+    color: white;
 }
 
 button {
     padding: 15px;
     border-radius: 5px;
     border: none;
-    background-color: #28A9F1;
+    background-color: #00b09b;
 }
 
 
